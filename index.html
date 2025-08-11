@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Educar C.S.F.</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="navbar">
+            <div class="logo"><a href="#">Educar C.S.F.</a></div>
+            <ul class="links">
+                <li><a href="hero">Menú</a></li>
+                <li><a href="about">Catálogo</a></li>
+                <li><a href="services">Ayuda</a></li>
+                <li><a href="contact">Informacion</a></li>
+            </ul>
+
+            <a href="#" class="action_btn">Comenzar</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+                <li><a href="hero">Menú</a></li>
+                <li><a href="about">Catálogo</a></li>
+                <li><a href="services">Ayuda</a></li>
+                <li><a href="contact">Informacion</a></li>
+                <li> <a href="#" class="action_btn">Comenzar</a></li>
+        </div>
+
+    </header>
+    <div>
+        <section id="hero">
+            <h1>!Bienvenidos a Educar!</h1>
+            <pq>Educar es una pagina que busca que los jovenes. vean de ante mano las escuelas secundarias y descargar su Documentacion</p>
+
+        </section>
+    </div>
+
+    <script>
+       const toggleBtn = document.querySelector('.toggle_btn')
+       const toggleBtnIcon = document.querySelector('.toggle_btn i')
+       const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle ('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBticon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+    <main>
+        <div class="b_search">
+            <div class="search">
+                <input type="text" placeholder="buscar:">
+                <button><img src="./scr/look-up-svgrepo-com.svg" width="20px" alt=""></button>
+            </div>
+        </div>
+    </main>
+<br>
+
+<div class="card-conteiner">
+
+    <div class="card">
+        <img src="./scr/escuela eetp.jpg" height="300px" alt="">
+        <div class="card-contenido">
+            <h3>EETP Nº614 “Enrique José Muzzio”</h3>
+            <p>Tecnicatura</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/escuela-república-del-perú.jpg" height="300px" alt="">
+        <div class="card-contenido">
+            <h3>Nº340 “República del Perú”</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="./scr/Zazpe.png" alt="">
+        <div class="card-contenido">
+            <h3>Nº1356 ”Monseñor V. F. Zazpe” </h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/ayuduy.png" alt="">
+        <div class="card-contenido">
+            <h3>E E S O Nº511 Generala Juana Azurduy</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/1172.png" alt="">
+        <div class="card-contenido">
+            <h3>Escuela Part Nº1174 Santa Lucía</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/unnamed2.jpg" height="300px" alt="">
+        <div class="card-contenido">
+            <h3>E E T P Nº480 Manuel Belgrano</h3>
+            <p>Tecnicatura</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/huerto.png" alt="">
+        <div class="card-contenido">
+            <h3>Nuestra Señora del huerto</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/629.png" alt="">
+        <div class="card-contenido">
+            <h3>EETP Nº629 Brigadier Estanislao Lopez</h3>
+            <p>Tecnicatura</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/ALmte.png" alt="">
+        <div class="card-contenido">
+            <h3>Escuela Secundaria Almte Guillermo Brown Nº331</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/Pizarro.png" alt="">
+        <div class="card-contenido">
+            <h3>Escuela Dr Manuel Pizarro </h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/NSP.png" alt="">
+        <div class="card-contenido">
+            <h3>Nuestra Señora de la paz</h3>
+            <p>bachiller</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>
+
+     <div class="card">
+        <img src="./scr/955.png" alt="">
+        <div class="card-contenido">
+            <h3>EETP Nº478 Dr Nicolas Avellaneda </h3>
+            <p>Tecnicatura</p>
+            <a href="path_to_file" download="proposed_file_name" class="btn">descargar El PDF</a>
+        </div>
+    </div>  
+</div>
+
+<br>
+
+    <section class="b_ayudas">
+
+        <div class="ayuda">
+            <h3>¿Como puedo saber la informacion de la escuela que me interesa?</h3>
+            <p>Para poder ver la caracteristicas de la escuela que te interesa es tan
+                simple como darle a descargar, y se descargara el documento con toda la informacion de la escuela</p>
+        </div>
+
+        <div class="ayuda">
+            <h3>En caso de que algun dato de la pagina este mal, ¿como se notifica?</h3>
+            <p>En caso de datos Erroneos, se tiene los nombres y contacto con los creadores</p>
+        </div>
+
+        <div class="ayuda">
+            <h3>¿Para qué sirve cada modalidad?</h3>
+            <p>Educación Técnico-Profesional (EETP) Brinda una formación práctica y teórica que prepara para un oficio o profesión técnica o Educación Común (Secundaria Orientada)
+Está centrada en la formación académica general. Al finalizar, se otorga el título de Bachiller en… (por ejemplo, Ciencias Sociales, Ciencias Naturales, Economía y Administración, Arte)
+
+            </p>
+        </div>
+
+        <div class="ayuda">
+            <h3>¿Cómo puedo elegir a cuál secundaria ir?</h3>
+            <p>Pensar en tus intereses: si te gusta la práctica, la tecnología o un oficio específico, una escuela técnica puede ser ideal. Si preferís una formación más general o enfocada en arte, ciencias o humanidades, la secundaria orientada es tu mejor opción.</p>
+        </div>
+                <div class="ayuda">
+            <h3>¿Qué puedo estudiar con cada título secundario?</h3>
+            <p>Con título de Técnico: podés ingresar a la universidad, a institutos terciarios, o bien trabajar en el área de tu especialidad técnica. También podés rendir exámenes para obtener matrícula profesional según el oficio (ej. Maestro Mayor de Obras, Técnico Electromecánico).
+Con título de Bachiller: podés continuar estudios superiores en cualquier área (carreras universitarias, profesorados, tecnicaturas no técnicas). Es un camino más flexible</p>
+        </div>
+                <div class="ayuda">
+            <h3>¿Cuáles son las fechas de inscripciones?</h3>
+            <p>Las fechas de inscripción para primer año de secundaria, suelen abrirse entre septiembre y octubre para preinscripciones, y continuar en noviembre con la confirmación de vacantes.
+En el caso de las escuelas técnicas, algunas comienzan antes sus procesos de inscripción debido a la alta demanda.</p>
+        </div>
+
+    </section>
+
+<br>
+
+    <footer>
+        <div class="info_box">
+            <p>Pagina Oficial de la escuela:<a href="https://sites.google.com/eetp614santotome.edu.ar/escuela-de-enseanaza-profesion/">Click Aqui</a> </p>
+            <br>
+            <span>Pagina educativa hecha por @indiana399 y @KurtzEc, Proyecto Institucional E.E.T.P 614.</span>
+            <p>Para el Profesor: Jorge Rios</p>
+        </div>
+    </footer>
+</body>
+
+</html>
